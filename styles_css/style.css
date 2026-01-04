@@ -1,0 +1,28 @@
+
+#container1{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #5B7C99;
+}
+
+#containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    color: #3C3838;
+}
+
+#containerNav{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
