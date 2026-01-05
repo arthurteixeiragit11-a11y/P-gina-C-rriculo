@@ -9,47 +9,59 @@
     display: flex;
     /*Arrange the elements in row*/
     flex-direction: row;
-    /**/
+    /*separate de contents*/
     justify-content: space-between;
-    /**/
+    /*aligns the contents horizontally*/
     align-items: center;
-    /**/
-    border-bottom: solid 2px #575151;
+    /*border bottom configs*/
+    border-bottom: solid 2px #575151; /*border-style | border-widht | border-color*/
 }
 
-/**/
+/*Select all content in section with id="containerHeader" */
 #containerHeader{
-    /**/
+    /*active display flex*/
     display: flex;
-    /**/
+    /*aligns the contents horizontally*/
     align-items: center;
-    /**/
+    /*centers the content*/
     justify-content: center;
-    /**/
+    /*adds space between the contents*/
     gap: 10px;
-    /**/
-    font: "Mulish", sans-serif, bold #5B7C99;  
+    /*font configs*/
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    color: #5B7C99;
 }
 
+/*Select all content in nav */
 #containerNav{
-    /**/
+    /*active display flex*/
     display: flex;
+    /*adds space between the links*/
     gap: 15px;
+    /*add margin right in the link*/
     margin-right: 15px;
 }
 
+/*style for links if not clicked*/
 a:link,a:visited.linkNav{
+    /*remove underline*/
     text-decoration: none;
+    /*font configs*/
     color: #5B7C99;
     font-family: "Mulish", sans-serif;
     font-style: oblique;
 }
 
+/*style for links if selected*/
 a:hover.linkNav{
-    text-decoration: underline solid 2px #5B7C99 ;
+    /*font configs*/
+    text-decoration: underline solid 2px #5B7C99 ; /*underline | add border-style | add border widht | add border-color*/
 }
 
+/*style for links if clicked*/
 a:active.linkNav{
+    /*add font color like red*/
     color: red;
 }
 
