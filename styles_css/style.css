@@ -1,24 +1,38 @@
 
+/*Select all header content*/
 #container1{
+    /*remove padding*/
     padding: 0px;
+    /*remove margin*/
+    margin: 0px;
+    /*Active display flex*/
     display: flex;
+    /*Arrange the elements in row*/
     flex-direction: row;
+    /**/
     justify-content: space-between;
+    /**/
     align-items: center;
+    /**/
     border-bottom: solid 2px #575151;
 }
 
+/**/
 #containerHeader{
+    /**/
     display: flex;
+    /**/
     align-items: center;
+    /**/
     justify-content: center;
+    /**/
     gap: 10px;
-    font-family: "Mulish", sans-serif;
-    font-weight: bold;
-    color: #5B7C99;
+    /**/
+    font: "Mulish", sans-serif, bold #5B7C99;  
 }
 
 #containerNav{
+    /**/
     display: flex;
     gap: 15px;
     margin-right: 15px;
