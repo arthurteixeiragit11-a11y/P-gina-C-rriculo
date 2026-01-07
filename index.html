@@ -10,29 +10,16 @@
     <title>ArthurTeixeira</title>
 </head>
 <body>
-    <!--Section header page + nav-->
-    <section id="container1">
-        <header id="containerHeader">
-            <h1>Arthur <span>Portifolio</span></h1>
-        </header>
-        <nav id="containerNav"> <!--Missing links here-->
-            <a class="linkNav" href="">Sobre mim</a>
-            <a class="linkNav" href="">Hard-Skills</a>
-            <a class="linkNav" href="">Soft-Skills</a>
-        </nav>
-    </section>
-    
-     <!--Main page-->
-    <main>
-        <h2 id="aboutMeTitle">ABOUT ME</h2> 
-        <section id="aboutMeContent"> <!--Section about me (text content + isaac img)-->
-            <p>Este é um texto de exemplo para testar o posicionamento do meu projeto. 
-            Estou utilizando este parágrafo para praticar conceitos de layout, como margens, 
-            preenchimentos e alinhamentos dentro de um container flexível. O objetivo é 
-            garantir que a leitura seja agradável e que o design seja responsivo em diferentes 
-            tamanhos de tela, mantendo a harmonia com os outros elementos da página.</p> <!--Text content-->
-            <img src="assets\img\img_isaac.png" alt="" width="200px" height="auto"> <!--Isaac img-->
-        </section>
-    </main>
+    <nav id="containerNav">
+        <a href=""><span style="color: #575151;">Arthur Teixeira</span> Portifólio</a>
+        <i class="fa-solid fa-bars" id="menuHamburger" onclick="abrirMenu()"></i>
+        <ul id="containerNavLinks">
+            <li><a href="" class="navLink">About Me</a></li>
+            <li><a href="" class="navLink">Hard-Skills</a></li>
+            <li><a href="" class="navLink">Soft-Skills</a></li>
+        </ul>
+    </nav>
+
+    <script src="menu_hamburger.js"></script>
 </body>
 </html>
