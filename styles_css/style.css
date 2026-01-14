@@ -3,16 +3,35 @@
     padding: 0;
 }
 
-main {
-    background-image: url("../assets/img/img_background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    width: 100%;
+.displayFlex{
+    display: flex;
+    align-items: center;
 }
 
-a:link, :visited{
+.containerNav{
+    flex-direction: row;
+    background-color: #5B7C99;
+    justify-content: space-between;
+    position: fixed;
+    box-sizing: border-box;
+    min-width: 100%;
+    height: 10vh;
+    padding: 2vh;
+    border-bottom: solid 2px black;
+}
+
+.containerNav i{
+    display: none;
+}
+
+.navLink{
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3vh;
+    list-style-type: none;
+}
+
+.link:link, :visited {
     text-decoration: none;
     color: whitesmoke;
     font-family: "Mulish", sans-serif; 
@@ -20,59 +39,32 @@ a:link, :visited{
     font-weight: bold;
 }
 
-a:hover{
+.link:hover{
     border-bottom: 3px solid whitesmoke;
     transition: 0.1s;
 }
 
-#containerNav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    box-sizing: border-box;
-    min-width: 100%;
-    height: 10vh;
-    padding: 3vh;
-    background-color: #5B7C99;
-    border-bottom: solid 2px #575151;
-}
-
-#containerNavLinks{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 15px;
-    list-style-type: none;
-}
-
-#menuHamburger{
-    display: none;
-}
-
-@media (max-width: 600px) {
-    #menuHamburger {
+@media (max-width: 660px){
+    .containerNav i{
         display: block;      
         font-size: larger;       
         padding: 10px;
-            
     }
 
-    #containerNavLinks {
+    .navLink{
         display: none;
         flex-direction: column;
         align-items: flex-start;
+        gap: 1vh;
         position: absolute;
         top: 70px;
         right: 35px;
         padding: 10px;
         background-color: rgb(12, 30, 135);
-
     }
 
-     #containerNavLinks.menuactive {
-        display: flex !important;
+    .navLink.menuactive {
+    display: flex !important;
     }
 }
+
