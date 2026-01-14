@@ -10,19 +10,40 @@
     <title>ArthurTeixeira</title>
 </head>
 <body>
-    <nav class="displayFlex containerNav">
+    <nav class="flex row containerNav"> <!--Nav page-->
         <a href="" class="link">Arthur Teixeira Silva Portifólio</a>
-        <i class=" displayFlex fa-solid fa-bars" style="color: white;" onclick="abrirMenu()"></i>
-        <ul class="displayFlex navLink">
+        <i class="fa-solid fa-bars" style="color: white;" onclick="abrirMenu()"></i> <!--Hamburger menu icon-->
+        <ul class="flex row navLink">
             <li><a href="" class="link">About Me</a></li> <!--Nav link-->
             <li><a href="" class="link">Hard-Skills</a></li> <!--Nav link-->
             <li><a href="" class="link">Soft-Skills</a></li> <!--Nav link-->
         </ul>
     </nav>
 
-    <main>
-        
+    <main class="flex col containerMain">
+        <header class="flex col headerContent">
+            <h1>Hello, i'm Arthur</h1>
+            <h2>Estudante de programação Front-End</h2>
+        </header>
+
+        <section class="arrowContent flex col">
+            <p>Content</p>
+            <i class="fa-solid fa-arrow-down"></i>
+        </section>
+
+        <section class="flex col">
+            <h2>About Me</h2>
+            <section class="flex row aboutMeContent">
+                <div class="flex col">
+                    <p>paragrafo como exemplo 123 BALATRO?!@#$%¨&</p>
+                    <p>paragrafo como exemplo 123 BALATRO?!@#$%¨&</p>
+                    <p>paragrafo como exemplo 123 BALATRO?!@#$%¨&</p>
+                </div>
+            <img src="assets\img\img_isaac.png" alt="" width="400px" height="auto">
+            </section>
+        </section>
     </main>
-    <script src="menu_hamburger.js"></script>
+
+    <script src="menu_hamburger.js"></script> <!--JavaScript-->
 </body>
 </html>
