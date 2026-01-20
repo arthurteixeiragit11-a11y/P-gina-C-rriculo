@@ -17,15 +17,21 @@
     
 }
 
+.text{
+    font-family: "Mulish", sans-serif;
+    color: whitesmoke;
+}
+
 img{
     max-width: 100%;
     height: auto;
 }
 
 .aboutMeContent{
-    padding-top: 5vh;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 5vh;
+
 }
 
 .headerContent{
@@ -33,9 +39,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: "Mulish", sans-serif;
-    color: whitesmoke; 
+    height: 100vh; 
     text-align: center;
 }
 
@@ -45,8 +49,6 @@ img{
    min-height: 100vh;
    width: 100%;
    text-align: center;
-   color: whitesmoke;
-   font-family: "Mulish", sans-serif;
    gap: 0.5vh;
    
 }
@@ -88,8 +90,6 @@ img{
 
 .link:link, :visited {
     text-decoration: none;
-    color: whitesmoke;
-    font-family: "Mulish", sans-serif; 
     font-size: large;
     font-weight: bold;
 }
