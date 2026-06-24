@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -24,6 +24,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 /*design das fontes*/
@@ -33,6 +34,7 @@ h1.font-title{
     font-size: 64px;
 }
 
+h3.font-title,
 p.font-title{
     font-family: 'Cormorant infant', sans-serif;
     font-weight: lighter;
@@ -41,7 +43,7 @@ p.font-title{
 }
 
 .font-content{
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 300;
     font-size: 18px;
 }
@@ -103,6 +105,8 @@ nav a:hover{
     color: #E8B89A;
 }
 
+
+/*design dos titulos das seções*/
 .container-section{
     margin-top: 34px;
     margin-bottom: 26px;
@@ -111,4 +115,28 @@ nav a:hover{
     border-radius: 10px;
     max-width: 20%;
     padding: 3px 8px;
+}
+
+/*desing dos cards*/
+h3 {
+    margin-top: 34px;
+}
+
+/*design do entre em contato*/
+h2.font-contat{
+    margin-bottom: 30px;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 48px;
+    color: #E8B89A;
+}
+
+.container-contat{
+    margin-bottom: 70px;
+}
+
+p.font-content-contat{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 6px;    
 }
