@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
 
 *{
     margin: 0;
@@ -38,6 +38,12 @@ p.font-title{
     font-weight: lighter;
     font-size: 24px;
 
+}
+
+.font-content{
+    font-family: 'Bitter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 /*desing do cabeçalho*/
@@ -89,7 +95,7 @@ nav a{
     text-decoration: none;
     font-family: 'Cormorant infant', sans-serif;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
@@ -98,6 +104,11 @@ nav a:hover{
 }
 
 .container-section{
-    background-color: red;
-    max-width: 180px;
+    margin-top: 34px;
+    margin-bottom: 26px;
+    background-color: #2E1510;
+    border: 1px solid #2E1510;
+    border-radius: 10px;
+    max-width: 20%;
+    padding: 3px 8px;
 }
