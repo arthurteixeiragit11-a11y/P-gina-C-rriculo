@@ -154,6 +154,13 @@ h3 {
     margin-top: 34px;
 }
 
+p.justify{
+    text-align: justify;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 /*********************************
 estilo do 'acompanhe meu trabalho'
 *********************************/
